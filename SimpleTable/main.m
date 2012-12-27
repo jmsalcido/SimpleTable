@@ -1,0 +1,18 @@
+//
+//  main.m
+//  SimpleTable
+//
+//  Created by Jose Miguel Salcido on 12/27/12.
+//  Copyright (c) 2012 Jose Miguel Salcido. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#import "SimpleTableAppDelegate.h"
+
+int main(int argc, char *argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([SimpleTableAppDelegate class]));
+    }
+}
