@@ -11,6 +11,7 @@
 @interface RecipeBookViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
     NSMutableArray *recipes;
+    NSArray *searchResults;
 }
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @end
